@@ -1,0 +1,55 @@
+/* Form Styling */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 300px;
+}
+
+/* Search Icon Styling */
+button.mat-button.matSuffix {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+button.mat-button.matSuffix:hover {
+    background-color: #0056b3;
+}
+
+/* Order Details Container Styling */
+.order-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-card {
+    width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mat-card-header {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.mat-card-title {
+    padding: 10px;
+}
+
+.order-detail {
+    margin: 10px;
+}
+
+.order-detail strong {
+    font-weight: bold;
+}

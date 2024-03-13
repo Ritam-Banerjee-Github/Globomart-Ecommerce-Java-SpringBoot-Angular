@@ -1,0 +1,186 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 16px;
+    color: #666;
+}
+
+.section-heading {
+    font-size: 28px;
+    color: #333;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+.reviews-list,
+.FAQS-list {
+    margin-top: 40px;
+}
+
+.review-card,
+.faq-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-image,
+.faq-details {
+    display: flex;
+    align-items: center;
+}
+
+.review-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.review-details,
+.faq-details {
+    flex: 1;
+}
+
+.review-details h2,
+.faq-details p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.rating,
+.username {
+    font-size: 16px;
+    color: #666;
+}
+
+.file-upload-container {
+    margin-bottom: 20px;
+}
+
+.file-upload-label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.file-upload-label span {
+    margin-right: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.image-preview {
+    margin-top: 10px;
+}
+
+.circle-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    border: 2px solid #007bff;
+}
+
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+mat-error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #444;
+}
+
+.product-price,
+.product-category {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.question,
+.answer {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.question-text,
+.answer-text {
+    font-size: 14px;
+    color: #666;
+}

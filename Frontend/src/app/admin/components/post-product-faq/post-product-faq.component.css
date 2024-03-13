@@ -1,0 +1,61 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+mat-label {
+    color: #666;
+}
+
+textarea.mat-input-element {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    min-height: 100px;
+    transition: border-color 0.3s ease;
+}
+
+textarea.mat-input-element:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+mat-error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

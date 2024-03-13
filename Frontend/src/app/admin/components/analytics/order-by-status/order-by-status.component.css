@@ -1,0 +1,47 @@
+/* Container Styling */
+.order-status-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+/* Card Styling */
+.order-status-card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.order-status-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Avatar Styling */
+.status-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* Title Styling */
+.mat-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Value Styling */
+.status-value {
+    font-size: 16px;
+    color: #666;
+}
